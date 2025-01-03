@@ -95,6 +95,7 @@ string literals
 ==============================
 
 ""
+"/"
 "\""
 "foo
  bar"
@@ -109,6 +110,7 @@ band = "Interpol"
 
 (source_file
   (string_literal)
+  (string_literal (content))
   (string_literal (escape_sequence))
   (string_literal (content))
   (string_literal (content) (escape_sequence) (content) (escape_sequence) (content))
